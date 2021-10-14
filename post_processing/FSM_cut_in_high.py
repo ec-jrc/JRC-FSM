@@ -23,7 +23,7 @@ import matplotlib.cm as cm
 
 
 def plot_results(**kwargs):
-    if not os.path.isfile('results/cut_in_low_speed/FSM_20_10.csv'):
+    if not os.path.isfile('results/cut_in_high_speed/FSM_70_10.csv'):
         print("Error, result files not found, run corresponding analysis first")
         exit(5)
 
