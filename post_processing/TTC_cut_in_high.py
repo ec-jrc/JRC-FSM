@@ -26,7 +26,7 @@ def plot_results(**kwargs):
     use_model = kwargs.get('model', 'FSM')
     print("Selected model TTC: ", use_model)
 
-    if not os.path.isfile('results/cut_in_high_speed/'+use_model+'_20_10.csv'):
+    if not os.path.isfile('results/cut_in_high_speed/'+use_model+'_70_10.csv'):
         print("Error, result files not found, run corresponding analysis first")
         exit(5)
 
